@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: fantasy;
+}
+
+body {
+  background-color: #F15025;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  background-color: white;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+nav section:nth-of-type(1) {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+nav section div {
+  display: inline-block;
+  margin: 1em;
+}
+
+nav section div a {
+  text-decoration: none;
+}
+
+main {
+  text-align: center;
+  width: 800px;
+  margin: 20% auto auto auto;
+}
+
+main div {
+  font-size: 2.5em;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  padding: 0.3em;
+}
+
+main button {
+  padding: 0.2em;
+  margin: 0.7em;
+  font-size: 2em;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=colorflipper.css.map */

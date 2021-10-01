@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgba(24, 22, 22, 0.986);
+}
+
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#f0eeee), to(white));
+  background: linear-gradient(to bottom, #f0eeee, white);
+  height: 100vh;
+}
+
+div {
+  font-size: 2em;
+}
+
+.number {
+  font-size: 3em;
+}
+
+.container {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30vw;
+  height: 50vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  margin: auto;
+  padding-top: 5em;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.buttons {
+  font-size: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.buttons button {
+  padding: 0.2em;
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+  border: black 1px solid;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=counter.css.map */

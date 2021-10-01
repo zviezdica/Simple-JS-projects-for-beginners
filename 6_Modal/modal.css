@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: url(./hero.jpeg) top/cover no-repeat;
+}
+
+.window, .openedNewWindow {
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(rgba(255, 255, 255, 0.918)));
+  background: linear-gradient(to bottom, white, rgba(255, 255, 255, 0.918));
+  width: 400px;
+  height: 200px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  left: 35vw;
+  top: 30vh;
+  border-radius: 10px;
+}
+
+.btn {
+  width: 100px;
+  text-transform: uppercase;
+  font-weight: 100;
+  color: white;
+  background-color: #90c9eb;
+  border: solid 1px #70b8e2;
+  border-radius: 2px;
+}
+
+.openedNewWindow {
+  position: absolute;
+  overflow: auto;
+  left: 35vw;
+  top: 31.5vh;
+  height: 180px;
+  outline: solid 1000px rgba(160, 160, 236, 0.514);
+}
+
+.newWindow {
+  height: 0;
+  width: 0;
+  overflow: hidden;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  font-size: 1.5em;
+  color: rgba(228, 40, 40, 0.877);
+}
+
+.removeClose {
+  overflow: hidden;
+}
+/*# sourceMappingURL=modal.css.map */

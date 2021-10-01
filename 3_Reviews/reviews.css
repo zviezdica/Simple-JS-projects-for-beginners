@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, right bottom, from(#d4f1f1), to(white));
+  background: linear-gradient(to right bottom, #d4f1f1, white);
+  max-height: 100vh;
+}
+
+.title {
+  width: 20vw;
+  margin: auto;
+  margin-top: 4em;
+  text-align: center;
+}
+
+.title .underline {
+  width: 100px;
+  height: 5px;
+  background-color: aquamarine;
+  margin-left: 85px;
+}
+
+.title h2 {
+  font-size: 2em;
+  padding: 0.5em;
+}
+
+.review {
+  margin: auto;
+  margin-top: 3em;
+  width: 30vw;
+  text-align: center;
+  background-color: white;
+  padding: 1em;
+  -webkit-box-shadow: #d6f3e9 0px 0px 2px;
+          box-shadow: #d6f3e9 0px 0px 2px;
+}
+
+.review .img-container img {
+  border-radius: 50%;
+}
+
+.review #job {
+  color: aquamarine;
+  font-weight: 700;
+}
+
+.review .buttons-container button {
+  color: #6ab89e;
+  background-color: white;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: #6ab89e 1px solid;
+  border-radius: 10px;
+  font-weight: 700;
+}
+/*# sourceMappingURL=reviews.css.map */
