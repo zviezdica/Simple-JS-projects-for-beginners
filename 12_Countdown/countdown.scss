@@ -1,0 +1,51 @@
+*{
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    background: linear-gradient(to bottom, rgb(225, 249, 252), rgb(209, 208, 208));
+    height: 100vh;
+}
+.main-div{
+    display: flex;
+    width: 60%;
+    height: 40%;
+    margin: auto;
+    padding-top: 15em;
+    justify-content: space-between;
+}
+.img-div{
+    flex-basis: 47%;
+    
+}
+.text-div{
+    flex-basis: 47%;
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+.text-header{
+    padding: 0.5em 0;
+}
+h1{
+    text-transform: uppercase;
+}
+h2{
+    text-transform: capitalize;
+    font-size: 1em;
+}
+.countdown-container{
+    width: 70%;
+    display: flex;
+    justify-content:space-between
+}
+.countdown-box{
+    flex-basis: 22%;
+    background-color: rgb(14, 19, 11);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
