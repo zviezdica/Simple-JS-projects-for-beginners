@@ -1,0 +1,58 @@
+*{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgb(232, 238, 247),rgb(194, 194, 194));  
+}
+header{
+    text-align: center;
+    padding: 10em 0 3em;
+    h1{
+    text-transform: capitalize
+    }  
+}
+h2{
+    font-size: 1em;
+}
+.main-flex{
+    margin: auto;
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+.prior-div{
+    border-radius: 10px;
+}
+.photo-div{
+    flex-basis: 48%;
+    background: url("./hero-bcg.jpeg") center center/cover;
+}
+.text-div{
+    flex-basis: 48%;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.text-btn-container{
+    display: flex;
+}
+.text-btn{
+    font-weight: 700;
+    font-size: 1em;
+    flex-grow: 1;
+    height: 3em;
+    border: none;
+    outline: none;
+    background-color: rgb(212, 211, 211);
+    &:first-child{
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+    &:hover{
+        background-color: rgb(202, 226, 247);
+    }
+}
+.p-container{
+    padding: 0.5em;
+}
