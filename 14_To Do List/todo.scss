@@ -1,0 +1,145 @@
+*{
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    text-transform: capitalize;
+}
+body{
+    font-size: 16px;
+}
+main{
+    background: linear-gradient(to bottom, rgb(248, 238, 238),rgb(248, 227, 227));
+    height: 100vh;
+    width: 100vw;
+    padding-top: 25vh;
+}
+.central-div{
+    width: 30vw;
+    margin: auto;
+    text-align: center;
+    border: rgb(110, 175, 36) solid 2px;
+    border-radius: 1.5em;
+    padding: 1em 0 1em;
+    position: relative;
+}
+.header{
+    padding: 1em;
+    font-size: 1.5em;
+    font-weight: 700;
+    position: relative;
+}
+.form-div{
+    display: flex;
+    justify-content: space-evenly;
+}
+.input{
+    width: 50%;
+    border: rgb(110, 175, 36) solid 1px;
+    border-radius: 0.3em;
+}
+.submit-btn{
+    width: 15%;
+    text-align: center;
+    background-color: white;
+    border: rgb(110, 175, 36) solid 2px;
+    border-radius: 0.5em;
+    &:hover{
+        background-color: rgb(110, 175, 36);
+    }
+}
+.trash-item{
+    border: none;
+    background-color: transparent;
+    color: rgb(255, 106, 106);
+    &:hover{
+        color: red;
+    }
+}
+.to-do-list{
+    padding: 0.3em 0 0.5em;
+
+}
+.to-do-item{
+    display: flex;
+    width: 85%;
+    text-align: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0.3em 0 1em;
+}
+h1{
+    font-size: 1em;
+ 
+}
+h3{
+    font-size: 1em;
+    font-weight: 400;
+    
+}
+.to-do-text-done{
+    text-decoration: line-through;
+    color: rgb(104, 103, 103);
+}
+.alert{
+    width: 80%;
+    font-size: 0.6em;
+    text-align: center;
+    position: absolute;
+    border-radius: 0.3em;
+    left: 10%;
+    top: 0;
+    text-transform:none;
+}
+.alert-success{
+background-color: rgb(110, 175, 36);
+}
+.alert-danger{
+    background-color: rgb(255, 106, 106);
+}
+.btn-clear-list{
+    font-size: 0.7em;
+    text-align: center;
+    position: absolute;
+    border-radius: 0.5em;
+    left: 35%;
+    bottom: 5%;
+    background-color: rgb(252, 150, 150);
+    border: solid 2px rgb(255, 106, 106);
+    height: 0;
+    width: 0;
+    visibility: hidden;
+    &:hover{
+        background-color: rgb(255, 106, 106);
+    }
+}
+.btn-clear-all{
+    width: 30%;
+    height: auto;
+    visibility: visible;
+}
+
+@media (max-width: 1024px){
+.central-div{
+    width: 41vw;
+}
+}
+@media (max-width: 768px){
+.central-div{
+    width: 55vw;
+}
+}
+@media (max-width: 600px){
+.central-div{
+    width: 70vw;
+}
+}
+@media (max-width: 480px){
+.central-div{
+    width: 90vw;
+}
+}
+@media (max-width: 375px){
+.central-div{
+    width: 95vw;
+}
+}
